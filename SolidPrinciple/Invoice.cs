@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net.Mail;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SolidPrinciple
 {
@@ -16,7 +12,8 @@ namespace SolidPrinciple
         {
             try
             {
-
+                MailMessage mailMessage = new MailMessage("EMailFrom", "EMailTo", "EMailSubject", "EMailBody");
+                this.SendInvoiceEmail(mailMessage);
             }
             catch (Exception ex)
             {
