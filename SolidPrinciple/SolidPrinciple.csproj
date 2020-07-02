@@ -43,17 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Invoice.cs" />
-    <Compile Include="InvoiceWithOpenClosePrinciple.cs" />
-    <Compile Include="InvoiceWithoutOpenClosedPrinciple.cs" />
-    <Compile Include="InvoiceWithSRP.cs" />
-    <Compile Include="Logger.cs" />
-    <Compile Include="MailSender.cs" />
+    <Compile Include="LSP\Apple.cs" />
+    <Compile Include="LSP\LiskovExample.cs" />
+    <Compile Include="SRP\Invoice.cs" />
+    <Compile Include="OCP\InvoiceWithOpenClosePrinciple.cs" />
+    <Compile Include="OCP\InvoiceWithoutOpenClosedPrinciple.cs" />
+    <Compile Include="SRP\InvoiceWithSRP.cs" />
+    <Compile Include="SRP\Logger.cs" />
+    <Compile Include="SRP\MailSender.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
