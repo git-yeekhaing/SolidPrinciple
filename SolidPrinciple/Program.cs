@@ -20,6 +20,8 @@ namespace SolidPrinciple
             #endregion
 
             #region Liskov
+
+            /*
             Apple apple = new Orange();
             Console.WriteLine(apple.GetColor());
 
@@ -32,6 +34,15 @@ namespace SolidPrinciple
             Console.WriteLine(fruit.GetColor());
 
             Console.WriteLine("===============================");
+            */
+
+            #endregion
+
+            #region ISP
+
+
+
+
             #endregion
 
             Console.ReadLine();

@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ISP\HPLaserJetPrinter.cs" />
+    <Compile Include="ISP\IPrinterTasks.cs" />
+    <Compile Include="ISP\LiquidInkjetPrinter.cs" />
     <Compile Include="LSP\Apple.cs" />
     <Compile Include="LSP\LiskovExample.cs" />
     <Compile Include="SRP\Invoice.cs" />
